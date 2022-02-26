@@ -392,3 +392,244 @@ a:link{
     margin: 10px;
     cursor: pointer;
 }
+.red-text{
+    position:absolute;
+    margin-right: 30px;
+}
+.red-text-flex{
+    margin-right: 30px;
+    margin-top: 40px;
+}
+.red-text-items1{
+    padding: 18px 25px;
+    margin-left: 0px;
+    font-size: large;
+    border-right: 1px solid #000;
+    float: left;
+    background-color: #eee;
+    color:rgb(150, 144, 144)
+}
+.red-text-items2{
+    padding: 18px 20px;
+    margin-left: 0px;
+    font-size: large;
+    border-right: 1px solid #000;
+    float: left;
+    background-color: #eee;
+}
+.red-text-items3{
+    padding: 17px 20px;
+    margin-left: 0px;
+    font-size: larger;
+    border-right: 1px solid #000;
+    float: left;
+    background-color: #eee;
+}
+.red-text-items4{
+    padding: 17px 40px;
+    margin-left: 0px;
+    font-size: larger;
+    float: left;
+    background-color: rgba(21, 206, 67, 0.733);
+    color: #eee;
+    font-size: bold;
+}
+.red-text-items4:hover{
+    background-color: rgba(45, 187, 57, 100%);
+}
+@media only screen and (max-width: 600px)
+{
+    .desktop-view{
+        display: none;
+    }
+    .oyo-logo{
+        width: 60px;
+        height: 25px;
+        padding-left: 250px;
+        margin-top: 15px;
+    }
+    .language-icon{
+        width: 60px;
+        height: 60px;
+
+    }
+    .header-class{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-text{
+        font-size: large;
+        font-weight: bold;
+        margin-left: 8px;
+    }
+    .main-block{
+        display: inline-block;
+        margin-top: 20px;
+        border: 2px solid rgba(136, 122, 122,0.3);
+        border-radius: 5%;
+        margin-left: 10px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .main-flex{
+        display: flex;
+        justify-content: space-evenly;
+        border-top:2px solid rgba(136, 122, 122,0.3);
+    }
+    .main-block1{
+        padding-left: 30px;
+        padding-top: 0px;
+        display: block;
+    }
+    .main-block1-text1{
+        padding-top: 2px;
+        font-size: small;
+        color: rgba(136, 122, 122,0.7);
+    }
+    .main-block1-text2{
+        padding-top: 2px;
+        font-size: medium;
+    }
+    .main-flex1{
+        padding-left: 30px;
+    }
+    .main-flex2{
+        padding-left: 120px;
+        padding-right: 70px;
+    }
+    .search-button{
+        margin: 20px;
+        padding: 15px 190px;
+        background-color: #d8245d;
+        border-radius: 5px;
+        color: #eee;
+        font-weight: bold;
+    }
+    .images-gallery1{
+        display: flex;
+        overflow-x: auto;
+        border-radius: 5px;
+     }
+    .image1{
+        padding: 10px;
+    }
+    .image-text1{
+        padding-left: 14px;
+        font-size: small;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    .sub-text1{
+        font-weight:bolder;
+        font-size: large;
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+    .package-image{
+        display: flex;
+        overflow-x: auto;
+        padding-left: 14px;
+    }
+    .package-image1{
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .single-img1{
+        height: 240px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .sub-text2{
+        font-size: large;
+        padding-top: 10px;
+    }
+    .single-img2{
+        border-radius: 5px;
+        margin-top: 10px;
+        width: 510px;
+    }
+    .footer-text{
+        font-size: large;
+        font-weight: bolder;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    .footer-flex{
+        display: flex;
+        margin-top: 20px;
+        justify-content: space-between;
+        overflow-x: auto;
+        padding: 20px;
+    }
+    .footer-block{
+        padding-right: 40px;
+        border-right: 3px solid rgba(136, 122, 122,0.3);
+        line-height: 2px;
+    }
+    .footer-subflex{
+        display: flex;
+        align-items: center;
+        margin-top: 5px;
+        padding-right: 15px;
+    }
+    .vaccinaid-1{
+        width: 220px;
+        padding-right: 30px;
+    }
+    .vaccinaid-2{
+        width: 215px;
+        padding-right: 30px;
+    }
+    }
+    .para-text1{
+        font-size: small;
+    }
+    .para-text2{
+        font-size: small;
+    }
+    .para-text3{
+        font-size: small;
+        font-weight: bolder;
+    }
+    .footer-flex1{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 30px;
+        border-top: 1.5px solid rgba(136, 122, 122,0.3);
+        position: sticky;
+        align-self: flex-start;
+        bottom: 0;
+        background-color: #eee;
+    }
+    .footer-image{
+        padding-left: 15px;
+        margin-bottom: -30px;
+        padding-bottom: 0px;
+    }
+    .footer-sticky1{
+        font-size: smaller;
+        padding-left: 10px;
+    }
+    
+    .footer-sticky2{
+        font-size: smaller;
+        padding-left: 10px;
+    }
+    .footer-sticky3{
+        font-size: smaller;
+        padding-left: 3px;
+    }
+    .footer-sticky4{
+        font-size: smaller;
+        padding-left: -6px;
+    }
+    .footer-sticky5{
+        font-size: smaller;
+        padding-left: -6px;
+    }
+    .footer-last-block{
+        display: block;
+    }
+}
