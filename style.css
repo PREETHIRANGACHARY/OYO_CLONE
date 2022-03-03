@@ -542,8 +542,8 @@ a:link{
         border-radius: 5px;
     }
     .single-img1{
-        height: 240px;
-        padding: 10px;
+        height: 100%
+        padding: auto;
         border-radius: 5px;
     }
     .sub-text2{
