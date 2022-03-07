@@ -2,6 +2,10 @@
 *{
     font-family:'Inter', sans-serif;
 }
+.mobile-view
+{
+    display: none;
+}
 .logo{
     width:81px;
     height: 29px;
@@ -434,11 +438,15 @@ a:link{
     color: #eee;
     font-size: bold;
 }
+
 .red-text-items4:hover{
     background-color: rgba(45, 187, 57, 100%);
 }
 @media only screen and (max-width: 600px)
 {
+    .mobile-view{
+        display: contents;
+    }
     .desktop-view{
         display: none;
     }
@@ -468,6 +476,7 @@ a:link{
         border: 2px solid rgba(136, 122, 122,0.3);
         border-radius: 5%;
         margin-left: 10px;
+        margin-right: 10px;
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -502,9 +511,9 @@ a:link{
         margin-top: 30px;
         margin-left: 7px;
         margin-right: 90px;
-        width: 45%;
+        width: 50%;
         padding: 15px;
-        padding-left: 10em;
+        padding-left: 12em;
         padding-right: 3em;
         background-color: #d8245d;
         border-radius: 5px;
@@ -542,8 +551,10 @@ a:link{
         border-radius: 5px;
     }
     .single-img1{
-        height: 100%
-        padding: auto;
+       /* height: 240px;*/
+        padding: 10px;
+        width: 100%;
+        height: auto;
         border-radius: 5px;
     }
     .sub-text2{
@@ -553,7 +564,8 @@ a:link{
     .single-img2{
         border-radius: 5px;
         margin-top: 10px;
-        width: 510px;
+        max-width: auto;
+        height: auto;
     }
     .footer-text{
         font-size: large;
@@ -608,6 +620,7 @@ a:link{
         align-self: flex-start;
         bottom: 0;
         background-color: #eee;
+        
     }
     .footer-image{
         padding-left: 15px;
@@ -637,5 +650,8 @@ a:link{
     }
     .footer-last-block{
         display: block;
+    }
+    .mobile-view{
+        margin:auto;
     }
 }
